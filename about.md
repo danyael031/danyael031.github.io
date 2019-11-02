@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Acerca de
+title: About
 permalink: /about/
 ---
 
-Soy estudiante de ingeniería electrónica y entusiasta de la tecnología.
+I am an electronic engineering student and technology enthusiast
 
-### Contacto
+### Contact information 
 
 [danyael031@gmail.com](mailto:danyael031@gmail.com)
+
