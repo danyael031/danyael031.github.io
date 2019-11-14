@@ -13,7 +13,7 @@ Github Pages allows you to have a little static webpage to put in it anything wh
 
 Because we don't want to make all our blog from scratch (with all the work that it means), simply gonna fork [Jekyll Now](https://github.com/barryclark/jekyll-now) from barryclark repository. I highly recommend you to read the project description!.
 
-![Go to desktop version and click in fork icon](/images/2019-11-02-Blog-in-Termux/forkinproxess.jpg)
+![Go to desktop version and click in fork icon](/images/2019-11-02-Blog-in-Termux/forkjekyllnow.jpg)
 
 ![took some seconds to fork the project](/images/2019-11-02-Blog-in-Termux/forkinproxess.jpg)
 
