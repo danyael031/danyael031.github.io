@@ -26,7 +26,7 @@ Go to your `username.github.io` through your browser and thats it! Now you have 
 
 ### Managing our blog from 
 
-If you doesn't know what is Termux, the description of his homepage maybe is generic, but no more no less:
+We gonna use Termux for manage our blog. If you doesn't know what is Termux, the description of his homepage maybe is generic, but no more no less:
 
 > Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required.
 
