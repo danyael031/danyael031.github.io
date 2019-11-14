@@ -13,9 +13,9 @@ Github Pages allows you to have a little static webpage to put in it anything wh
 
 Because we don't want to make all our blog from scratch (with all the work that it means), simply gonna fork [Jekyll Now](https://github.com/barryclark/jekyll-now) from barryclark repository. I highly recommend you to read the project description!.
 
-![Go to desktop version and click in fork icon](2019-11-02-Blog-in-Termux/forkinproxess.jpg)
+![Go to desktop version and click in fork icon](images/2019-11-02-Blog-in-Termux/forkinproxess.jpg)
 
-![took some seconds to fork the project](2019-11-02-Blog-in-Termux/forkinproxess.jpg)
+![took some seconds to fork the project](images/2019-11-02-Blog-in-Termux/forkinproxess.jpg)
 
 Now go to settings of your new repository and change the repository name to `username.github.io` where `username` is your user name in Github.
 
@@ -31,6 +31,7 @@ If you doesn't know what is Termux, the description of his homepage maybe is gen
 And thats it all. You can have the power of a Linux terminal in your hands.
 
 You can instal Termux from the Google Play Store or F-droid. There is no difference, but i have preference for the F-droid version.
+
 
 
 
