@@ -68,7 +68,7 @@ nano 2019-11-21-Blog-en-termux.md
 
 Y agregamos la información de formato para nuestro blog:
 
-```
+```markdown
 ---
 layout: post
 title: Administrando blog desde tu dispositivo Android con Termux y GitHub Pages
@@ -82,7 +82,8 @@ Y listo, podemos comenzar a escribir nuestro blog desde la terminal. Si no está
 Una vez termines de realizar los cambios a tu entrada de blog, tienes que realizar una confirmación de cambios y un git push:
 
 ```shell
-git commit -am "Creando nueva entrada del blog"
+git add .
+git commit -m "Creando nueva entrada del blog"
 git push
 ```
 
