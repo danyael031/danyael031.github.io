@@ -32,7 +32,7 @@ Como podría esperarse, utilizaremos Termux para manejar nuestro blog. Si no sab
 Y eso es todo. El poder de un terminal de Linux, en tus manos.
 Puedes instalar Termux desde Google Play Store o desde F-droid.
 
-Una vez en Termux, necesitamos instalar el cliente para el control de versiones, git.
+Necesita instalar el cliente para el control de versiones, git. Para ello será necesario ejecutar el siguiente comando en Termux:
 
 ```shell
 pkg install -y git 
@@ -44,13 +44,13 @@ Una vez instalado el control de versiones, procederemos a clonar el repositorio 
 git clone https://github.com/usuario/usuario.github.io.git
 ```
 
-Una vez clonado nuestro repositorio, podremos acceder a la carpeta de \_posts y comenzar a agregar las entradas de nuestro blog. De acuerdo a la documentación de Jekyll Now, los nombres de las entradas del blog llevan el formato de `año-mes-dia-Nombre-del-blog`. Para movernos a la carpeta de \_posts se utiliza el siguiente comando:
+Podremos acceder a la carpeta de \_posts y comenzar a agregar las entradas de nuestro blog. Para movernos a la carpeta de \_posts se utiliza el siguiente comando:
 
 ```shell
 cd usuario.github.io/_pages
 ```
 
-Y creamos nuestro archivo:
+De acuerdo a la documentación de Jekyll Now, los nombres de las entradas del blog llevan el formato de `año-mes-dia-Nombre-del-blog`. Creamos nuestro archivo de la siguiente manera:
 
 ```shell
 touch 2019-11-21-Blog-en-termux.md
@@ -66,7 +66,7 @@ Abrimos el archivo de nuestro blog desde un editor de texto en la consola:
 nano 2019-11-21-Blog-en-termux.md
 ```
 
-Y agregamos la información de formato para nuestro blog:
+Agregamos la información de formato para nuestro blog:
 
 ```markdown
 ---
