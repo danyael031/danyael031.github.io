@@ -3,7 +3,7 @@ layout: post
 title: Administrando blog desde tu dispositivo Android con Termux y GitHub Pages
 ---
 
-En el primer post de mi blog te mostraré cómo administrar tu propio blog desde tu teléfono móvil utilizando algunas utilidades de Termux y GitHub Pages.
+En el primer post de mi blog te mostraré cómo administrar tu propio blog desde tu teléfono móvil, utilizando algunas utilidades de Termux y GitHub Pages.
 
 ### Creando la página para nuestro blog
 
