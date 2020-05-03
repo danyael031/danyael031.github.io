@@ -17,3 +17,4 @@
 * Uso de Termux como entorno de de desarrollo tipo linux.
 * Personalización de KDE Plasma
 * Instalación de flutter en manjaro Linux
+* Fuerza bruta a llaves privadas con OpenSSL
