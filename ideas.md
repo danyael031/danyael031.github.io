@@ -18,3 +18,4 @@
 * Personalización de KDE Plasma
 * Instalación de flutter en manjaro Linux
 * Hablar sobre esteganografía y tratar de implementarlo
+* Fuerza bruta a llaves privadas con OpenSSL
