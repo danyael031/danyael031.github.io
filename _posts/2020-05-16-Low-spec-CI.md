@@ -4,18 +4,18 @@ title: Low spec CI with git
 ---
 
 One of the most annoying things is when I have to compile and publish a version of a dotnet core
-project for a docker container in Windows 10. Open visual studio, waiting 10 minutes for it to respond, start docker desktop (pray to get no errors) and try to publish the project without the possibility of doing nothing else.
+project for a docker container in Windows 10. Opening visual studio, waiting 10 minutes for it to respond, starting docker desktop (praying to get no errors) and trying to publish the project without the possibility of doing anything else.
 
-Maybe is the use of a virtual machine that Windows need to run docker or maybe the lot of resources that Visual Studio take to open and publish a project, basically (and in case isn't enough clear) I hate make the publishes in my limited working desktop computer. 
+Perhaps Windows needs to run a virtual machine to use docker or maybe it's the great amount of resources that virtual studio needs to open and publish a project. Basically, in case i haven't been clear enough, i hate to work in my limited desktop computer.
 
 Well, the first thing that went through my mind was to do a little script to automate the process, 
-but that doesn't solve the resource consumption that limit the use of my computer and configuring any
-environment with a CI tool, like Travis or Jenkins, can't take too much time for me. The fast 
+but that doesn't solve the resource consumption that limits the use of my computer and to configure
+any environment with CI tools like Travis or Jenkins, takes to long for me. A fast 
 solution? Doing all the deploy and delivery in a little Virtual Machine and using git hooks.
 
 # Automate CI and deploy with git hooks
 
-The use is really simply:
+This is really simply:
 
 * Use a git repository in our VM as a remote.
 * Make a script to automate and use it as a post-update hook.
@@ -25,8 +25,8 @@ The use is really simply:
 In this case I'm using a VM with Ubuntu 18.04 and ZeroTier. With ZeroTier I can access the VM without
 public IP nor being in the same network segment.
 
-To use our VM as a git remote, we need to generate a bare git repository and copy it to the server; this can be done using SCP or SFTP, WinSCP can easily help yo to copy the bare git folder. I assume you
-have access to the VM with SSH.
+To use our VM as a git remote, we need to generate a bare git repository and copying it to the server; this can be done using SCP or SFTP, WinSCP can easily help you to copy the bare git folder. We need 
+to have access to the VM with SSH.
 
 Creating a bare git folder:
 
@@ -59,8 +59,8 @@ post-update                prepare-commit-msg.sample  update.sample
 
 ```
 
-Hooks folder contain sample hooks that run in specific events, in this case we have interest in 
-post-update hook. For this example I'm gonna show a bash script, but this can be done with any
+Hooks folder contains sample hooks that run in specific events, we are interest in 
+post-update hook. For this example I'm going to show a bash script, but this can be done with any
 script language.
 
 ## Detecting the branch
@@ -164,7 +164,8 @@ fi
 
 ```
 
-And thats it! Now is time to save, rename the ".sample" from the hook and make it an executable
+And that's it! Now it's time to save, to rename the ".sample" from the hook and make it an executable
+file.
 
 ```shell
 $ mv post-update.sample post-update
@@ -185,6 +186,4 @@ and now we can make a `git push` to this remote every time we want to run our CI
 ```shell
 $ git push my_ci_remote master
 ```
-
-Thats it! 
 
