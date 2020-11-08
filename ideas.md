@@ -19,3 +19,4 @@
 * Instalación de flutter en manjaro Linux
 * Hablar sobre esteganografía y tratar de implementarlo
 * Fuerza bruta a llaves privadas con OpenSSL
+* Uso de Zerotier para sustituir el uso de ips públicas o DNSs dinámicos
