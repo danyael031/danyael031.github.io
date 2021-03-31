@@ -52,7 +52,7 @@ permitirán mantener conectado el equipo sin estar cargando la batería, con lo 
 
 # Conclusiones
 
-Estoy bastante contento de que el equipo cuente con la característica de desconectar la batería cuando el equipo se mantenga conectado y, mejor 
+Estoy bastante contento de que el equipo cuente con la característica de desconectar la batería cuando el equipo se mantenga conectado al cargador y, mejor 
 aún, poder aprovechar la funcionalidad en Manjaro Linux sin mayor complicación.
 
 
