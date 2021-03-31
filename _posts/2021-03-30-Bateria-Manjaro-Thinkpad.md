@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Configuración de la batería para Thinkpad con Manjaro.
+title: Configuración de optimización de la batería para Thinkpad con Manjaro.
 ---
 
 Recientemente conseguí un equipo de la línea Thinkpad. Fuera de los aspectos técnicos, una de mis mayores preocupaciones fue que, por usar linux,
 el tiempo de vida de la batería se viera afectado. Cualquiera podría pensar que es una exageración preocuparse por eso, sobre todo porque las
-ditribuciones de linux tienen la fama de consumir pocos recursos, lo cual podría dar la falsa sensación de seguridad en lo que respecta a consumo 
+distribuciones de Linux tienen la fama de consumir pocos recursos, lo cual podría dar la falsa sensación de seguridad en lo que respecta a consumo 
 de energía. La realidad es un poco diferente.
 
 # Ciclos de carga
@@ -20,7 +20,7 @@ con windows. OJO! En windows!!!. Mi preocupación creció exponencialmente.
 # ¿Cómo evitar la muerte de la batería por desgaste de ciclos de carga?
 
 Investigando un poco descubrí la existencia de TLP (Linux Advanced Power Management), un pequeño pedazo de software que hace de administrador de
-energía de una manera super eficiente.
+energía de una manera eficiente.
 
 La instalación no tiene mayor complicación, ya que tanto la herramienta principal como su interfaz gráfica se encuentran fácilmente entre los 
 paquetes de Manjaro:
