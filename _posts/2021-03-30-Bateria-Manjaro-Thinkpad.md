@@ -12,7 +12,7 @@ de energía. La realidad es un poco diferente.
 
 Las baterías de las laptops tienen un concepto llamado "charge cycles", el cual indica el número de veces que puedes cargar tu batería de 0% a
 100%. De acuerdo con el 
-[sitio de lenovo]((https://support.lenovo.com/mx/en/solutions/ht069687-easy-ways-to-extend-your-battery-life-ideapadlenovothinkpad-laptops), se
+[sitio de lenovo](https://support.lenovo.com/mx/en/solutions/ht069687-easy-ways-to-extend-your-battery-life-ideapadlenovothinkpad-laptops), se
 puede optimizar el uso de la batería apagando el bluetooth, bajando el brillo y utilizando el administrador de energía preinstalado en los sistemas
 con windows. OJO! En windows!!!. Mi preocupación creció exponencialmente.
 
@@ -25,9 +25,9 @@ energía de una manera super eficiente.
 La instalación no tiene mayor complicación, ya que tanto la herramienta principal como su interfaz gráfica se encuentran fácilmente entre los 
 paquetes de Manjaro:
 
-``shell
+```shell
 sudo pacman -S tlp tlpui
-``
+```
 
 La herramienta permite controlar muchos aspectos sobre el consumo energética, entre los cuales destacan:
 
